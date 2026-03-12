@@ -15,8 +15,333 @@
 :root {
   --black: #000000;
   --white: #ffffff;
+  --cotton-candy: #ff9999;
+  --amber-earth: #d48311;
+  --amber-gold: #fbbc05;
+  --red: #ff0000;
+  --pumpkin-spice: #ff6600;
+  --magenta: #ff00ff;
+  --lime: #00ff00;
+  --blue: #0000ff;
+  --grey: #808080;
+  --graphite: #333333;
+  --walnut: #663300;
 }
 
 body {
   margin: 0;
+  background-color: var(--white);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.naoki-text {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 40px;
+  position: relative;
+  bottom: 50px;
+  left: 100px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.naoki-text_color_black {
+  color: var(--black);
+}
+
+.naoki-text_color_white {
+  color: var(--white);
+}
+
+.naoki-text_color_amber-gold {
+  color: var(--amber-gold);
+}
+
+.square {
+  position: absolute;
+  z-index: -1;
+  width: 40em;
+  height: 40em;
+}
+
+.square_background-color_black {
+  background-color: var(--black);
+}
+
+.square_background-color_amber-gold {
+  background-color: var(--amber-gold);
+}
+
+.square_background-color_red {
+  background-color: var(--red);
+}
+
+.square_background-color_pumpkin-spice {
+  background-color: var(--pumpkin-spice);
+}
+
+.square_background-color_magenta {
+  background-color: var(--magenta);
+}
+
+.square_background-color_lime {
+  background-color: var(--lime);
+}
+
+.square_background-color_blue {
+  background-color: var(--blue);
+}
+
+.square_background-color_grey {
+  background-color: var(--grey);
+}
+
+.square_background-color_graphite {
+  background-color: var(--graphite);
+}
+
+.square_background-color_walnut {
+  background-color: var(--walnut);
+}
+
+.naoki {
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+.face {
+  width: 115px;
+  height: 90px;
+  border-radius: 50px;
+}
+
+.face_background-color_white {
+  background-color: var(--white);
+}
+
+.ear {
+  position: relative;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-bottom: solid 50px;
+  border-left: solid 20px;
+  border-right: solid 20px;
+}
+
+.ear_border-bottom-color_white {
+  border-bottom-color: var(--white);
+}
+
+.ear_border-left-color-border-right-color_transparent {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.ear-one {
+  bottom: 35px;
+  transform: rotate(-30deg);
+}
+
+.ear-two {
+  bottom: 85px;
+  left: 74px;
+  transform: rotate(30deg);
+}
+
+.inner-ear {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-bottom: solid 50px;
+}
+
+.inner-ear_border-bottom-color_salmon_pink {
+  border-bottom-color: var(--cotton-candy);
+}
+
+.inner-ear-one {
+  border-left: solid 25px;
+  right: 25px;
+}
+
+.inner-ear-one_border-left-color_transparent {
+  border-left-color: transparent;
+}
+
+.inner-ear-two {
+  border-right: solid 25px;
+}
+
+.inner-ear-two_border-right-color_transparent {
+  border-right-color: transparent;
+}
+
+.eye {
+  position: relative;
+  width: 25px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.eye_background-color_amber-gold {
+  background-color: var(--amber-gold);
+}
+
+.eye-one {
+  bottom: 75px;
+  left: 23px;
+}
+
+.eye-two {
+  bottom: 90px;
+  left: 66px;
+}
+
+.eyeball {
+  position: relative;
+  top: 2.5px;
+  left: 10px;
+  width: 6px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.eyeball_background-color_black {
+  background-color: var(--black);
+}
+
+.nose {
+  position: relative;
+  bottom: 85px;
+  left: 51px;
+  width: 0;
+  height: 0;
+  border-top: solid 8px;
+  border-left: solid 7px;
+  border-right: solid 7px;
+}
+
+.nose_border-top_color_cotton-candy {
+  border-top-color: var(--cotton-candy);
+}
+
+.nose_border-left-border-right_color_transparent {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.nostril {
+  position: relative;
+  width: 1px;
+  height: 8px;
+}
+
+.nostril_background-color_cotton-candy {
+  background-color: var(--cotton-candy);
+}
+
+.nostril-one {
+  transform: rotate(45deg);
+  bottom: 2px;
+  right: 4px;
+}
+
+.nostril-two {
+  transform: rotate(-45deg);
+  bottom: 10px;
+  left: 3px;
+}
+
+.mark-face {
+  position: relative;
+  width: 25px;
+  height: 16px;
+  border-radius: 45%;
+}
+
+.mark-face_background-color_amber-earth {
+  background-color: var(--amber-earth);
+}
+
+.mark-face-one {
+  bottom: 136px;
+  left: 25px;
+}
+
+.mark-face-two {
+  bottom: 152px;
+  left: 64px;
+}
+
+.body {
+  position: relative;
+  left: 30px;
+  bottom: 5px;
+  width: 130px;
+  height: 120px;
+  border-radius: 0 65px 0 0;
+}
+
+.body_background-color_white {
+  background-color: var(--white);
+}
+
+.paw {
+  position: relative;
+  width: 22px;
+  height: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.paw_background-color_white {
+  background-color: var(--white);
+}
+
+.paw-one {
+  top: 120px;
+}
+
+.paw-two {
+  top: 110px;
+  left: 50px;
+}
+
+.tail {
+  position: relative;
+  top: 80px;
+  left: 130px;
+  width: 120px;
+  height: 20px;
+  border-radius: 0 20px 20px 0;
+}
+
+.tail_background-color_amber-earth {
+  background-color: var(--amber-earth);
+}
+
+.mark-body {
+  position: relative;
+  bottom: 4px;
+  left: 97px;
+  width: 32px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.mark-body_background-color_amber-earth {
+  background-color: var(--amber-earth);
 }

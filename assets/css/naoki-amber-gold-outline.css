@@ -1,0 +1,141 @@
+.square_background-color_black {
+  background-color: var(--black);
+}
+
+.naoki {
+  top: 200px;
+  left: 200px;
+}
+
+.face {
+  border: solid 1px;
+}
+
+.face_border-color_amber-gold {
+  border-color: var(--amber-gold);
+}
+
+.face_background-color_black {
+  background-color: var(--black);
+}
+
+.ear_border-bottom-color_amber-gold {
+  border-bottom-color: var(--amber-gold);
+}
+
+.ear-one {
+  bottom: 35px;
+  transform: rotate(-15deg);
+}
+
+.ear-two {
+  bottom: 85px;
+  left: 74px;
+  transform: rotate(15deg);
+}
+
+.inner-ear {
+  border-bottom: solid 45px;
+  border-left: solid 12.5px;
+  border-right: solid 24.5px;
+  top: 4.5px;
+  right: 15px;
+}
+
+.inner-ear_border-bottom-color_black {
+  border-bottom-color: var(--black);
+}
+
+.inner-ear_border-left-color-border-right-color_transparent {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.inner-ear-one {
+  transform: rotate(7deg);
+}
+
+.inner-ear-two {
+  transform: rotate(7deg);
+}
+
+.eye {
+  border: solid 1px;
+}
+
+.eye_border-color_amber-gold {
+  border-color: var(--amber-gold);
+}
+
+.eye_background-color_black {
+  background-color: var(--black);
+}
+
+.eyeball {
+  top: 2px;
+  left: 9px;
+}
+
+.eyeball_background-color_amber-gold {
+  background-color: var(--amber-gold);
+}
+
+.nose {
+  border-top: solid 8px;
+}
+
+.nose_border-top_color_amber-gold {
+  border-top-color: var(--amber-gold);
+}
+
+.nostril_background-color_amber-gold {
+  background-color: var(--amber-gold);
+}
+
+.body {
+  border: solid 1px;
+}
+
+.body_border-color_amber-gold {
+  border-color: var(--amber-gold);
+}
+
+.body_background-color_black {
+  background-color: var(--black);
+}
+
+.paw {
+  border: solid 1px;
+}
+
+.paw_border-color_amber-gold {
+  border-color: var(--amber-gold);
+}
+
+.paw_background-color_black {
+  background-color: var(--black);
+}
+
+.paw-one {
+  top: 118px;
+  right: 1px;
+}
+
+.paw-two {
+  top: 108px;
+  left: 48px;
+}
+
+.tail {
+  border: solid 1px;
+  top: 79px;
+  left: 128px;
+}
+
+.tail_border-color_amber-gold {
+  border-color: var(--amber-gold);
+}
+
+.tail_background-color_black {
+  background-color: var(--black);
+}

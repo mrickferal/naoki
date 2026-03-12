@@ -1,0 +1,120 @@
+body {
+  font-size: 16px;
+  font-family: "Fira Mono", monospace;
+}
+
+.naoki-text {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 40px;
+  position: relative;
+  bottom: 50px;
+  left: 100px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.naoki-text_color_amber-gold {
+  color: var(--amber-gold);
+}
+
+.square_background-color_black {
+  background-color: var(--black);
+}
+
+.naoki {
+  top: 200px;
+  left: 200px;
+}
+
+.face_background-color_amber-gold {
+  background-color: var(--amber-gold);
+}
+
+.ear-one {
+  bottom: 35px;
+  transform: rotate(-15deg);
+}
+
+.ear-two {
+  bottom: 85px;
+  left: 74px;
+  transform: rotate(15deg);
+}
+
+.inner-ear {
+  border-bottom: solid 45px;
+  border-left: solid 12.5px;
+  border-right: solid 24.5px;
+  top: 4.5px;
+  right: 15px;
+}
+
+.inner-ear_border-bottom-color_amber-gold {
+  border-bottom-color: var(--amber-gold);
+}
+
+.inner-ear_border-left-color-border-right-color_transparent {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.inner-ear-one {
+  transform: rotate(4deg);
+}
+
+.inner-ear-two {
+  transform: rotate(7deg);
+}
+
+.eye {
+  border: solid 1px;
+}
+
+.eye_border-color_black {
+  border-color: var(--black);
+}
+
+.eye_background-color_amber-gold {
+  background-color: var(--amber-gold);
+}
+
+.eyeball {
+  top: 2px;
+  left: 9px;
+}
+
+.eyeball_background-color_black {
+  background-color: var(--black);
+}
+
+.nose {
+  border-top: solid 8px;
+}
+
+.nose_border-top_color_amber-gold {
+  border-top-color: var(--amber-gold);
+}
+
+.nostril_background-color_black {
+  background-color: var(--black);
+}
+
+.mark-face_background-color_amber-gold {
+  background-color: var(--amber-gold);
+}
+
+.body_background-color_amber-gold {
+  background-color: var(--amber-gold);
+}
+
+.paw_background-color_amber-gold {
+  background-color: var(--amber-gold);
+}
+
+.tail_background-color_amber-gold {
+  background-color: var(--amber-gold);
+}
